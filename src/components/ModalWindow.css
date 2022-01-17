@@ -1,0 +1,95 @@
+.modal-window{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.modal-window ol li{
+    width: 10%;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+    border: thin solid white;
+    box-sizing: border-box;
+}
+
+.modal-window ol li:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+.modal-window ol{
+    width: 80%;
+    height: 50%;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.modal-window .exit{
+    width: 50px;
+    height: auto;
+    font-weight: bold;
+    font-size: 33px;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal-window .exit:hover{
+    background-color: #f00;
+}
+
+.modal-window p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 40%;
+}
+
+.selected{
+    background-color: rgba(0, 0, 0, 0.164) !important;
+    border: thick solid white !important;
+}
+
+.modal-window button{
+    font-size: 19px;
+    padding: 5px;
+    color: white;
+    width: 10%;
+    height: 5%;
+    margin-left: 47%;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+form{
+    width: 80%;
+    position: relative;
+    top: -5%;
+    left: 18%;
+}
+
+.modal-window label{
+    margin-left: 10;
+    color: white;
+}
+
+.modal-window input{
+    margin-left: 10%;
+}

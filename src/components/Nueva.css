@@ -1,0 +1,33 @@
+.nueva{
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.699);
+    text-align: center;
+}
+
+.nueva img{
+    margin:  10px 400px;
+    width: 190px;
+}
+
+.container-nueva{
+    margin: 100px auto;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    background-color: white;
+    border: thick solid black;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.nueva .exit:hover{
+    background-color: #f00;
+}

@@ -1,0 +1,21 @@
+.container-msg{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+.Msg{
+    width: 70%;
+    height: 30%;
+    background-color: black;
+}
+
+.Msg{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    
+}

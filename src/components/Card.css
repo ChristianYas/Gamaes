@@ -1,0 +1,52 @@
+.container-card{
+    width: 400px;
+    height: 490px;
+    margin: 20px;
+    margin-top: 45px;
+    box-shadow: 0px 0px 8px black;
+    background-color: #fff;
+    position: relative;
+    z-index: 15;
+    cursor: pointer;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: 1s ease;
+}
+
+.container-card:hover{
+    transform: scale(1.1);
+}
+
+.container-card p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 9px;
+    color: black;
+}
+
+.img-game{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    left: -40px;
+    bottom: -17px;
+    background-color: #000;
+    color: #fff;
+}
+
+ul li{
+    font-weight: bold;
+}
+
+ul img{
+    width: 40px;
+}

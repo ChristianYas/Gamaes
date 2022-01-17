@@ -1,0 +1,115 @@
+.especific-card{
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.especific-card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: thick solid black;
+    border-left: thick solid black;
+    border-right: thick solid black;
+    box-shadow: 20px 20px 6px black;
+    transition: 2s ease;
+    position: absolute;
+    bottom: 100px;
+}
+
+.especific-card img:hover{
+    transform: translateY(-60px);
+}
+
+.exit{
+    width: 50px;
+    height: auto;
+    font-weight: bold;
+    font-size: 33px;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.especific-card .exit:hover{
+    background-color: #f00;
+}
+
+.container-large-card{
+    width: 90%;
+    height: 75%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 110px auto;
+    display: flex;
+    flex-direction: row;
+    border: thick solid black;
+}
+
+.container-img{
+    width: 60%;
+    height: auto;
+    margin: 30px;
+    margin-left: 20px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.container-img h2{
+    position: relative;
+    top: -130px;
+    font-size: 35px;
+
+}
+
+.about{
+    width: 50%;
+    height: auto;
+    margin-left: 2px;
+    padding: 10px;
+}
+
+.about h3{
+    font-size: 20px;
+}
+
+.about p{
+    font-weight: 600;
+    color: rgb(92, 88, 88);
+}
+
+.about ol{
+    list-style: circle;
+}
+
+.about ol li{
+    font-weight: 600;
+}
+
+.container-img a{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+.container-img a:hover{
+   background-color: rgba(0, 0, 0, 0.418);
+}
+
+.container-img a:active{
+    transform: scale(0.9);
+}
